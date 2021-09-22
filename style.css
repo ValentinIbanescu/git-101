@@ -1,9 +1,11 @@
 body{
 	margin: 0;
 	font-family: Helvetica;
+	background: #C81E28;
 }
 h1{
 	font-weight: lighter;
+	color: whitesmoke;
 }
 
 #logo{
@@ -12,6 +14,7 @@ h1{
 	display: block;
 	margin: 10px;
 }
+
 #container{
 	display: flex;
 	flex: space-around;
