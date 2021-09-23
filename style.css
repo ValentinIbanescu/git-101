@@ -1,11 +1,19 @@
 body{
-	margin: 0;
+	margin: 10vh;
 	font-family: Helvetica;
 	background: #0F80FF;
 }
 h1{
 	font-weight: lighter;
 	color: whitesmoke;
+}
+p{
+	font-weight: lighter;
+	color: whitesmoke;
+}
+#about{
+	margin: 1px;
+	text-align: center;
 }
 
 #logo{
@@ -15,11 +23,27 @@ h1{
 	margin: 10px;
 }
 
-#container{
+.container{
 	display: flex;
 	flex: space-around;
 	align-items: center;
 	justify-content: center;
-	height: 70vh;
+	height: 50vh;
 	flex-direction: column;
+}
+.btn-medium {
+color: white;
+border: 1px solid white;
+border-radius: 50px;
+font-weight: lighter;
+padding: 5px 10px;
+opacity: 1;
+text-decoration: none;
+}
+
+.btn-medium:hover {
+opacity: 0.5;
+text-decoration: none;
+color: #FC0107;
+border-color: #FC0107 ;
 }
